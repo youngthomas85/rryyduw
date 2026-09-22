@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：Performance：JSON序列化性能优化实践
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://wap.fnjitp.asia/blog/1927916.sHtMl
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://wap.fnjitp.asia/blog/1827948.sHtMl
+
+原标题：golang 系统设计分布式事务业务选型决策思路
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://wap.fnjitp.asia/blog/3372526.sHtMl
+
+原标题：项目实践：多环境配置管理组件设计与实现
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://wap.fnjitp.asia/blog/9504137.sHtMl
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://wap.fnjitp.asia/blog/4869172.sHtMl
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://wap.fnjitp.asia/blog/0470366.sHtMl
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://wap.fnjitp.asia/blog/6685630.sHtMl
+
+原标题：golang redis lua 脚本原子操作
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://wap.fnjitp.asia/blog/3938583.sHtMl
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://wap.fnjitp.asia/blog/7636148.sHtMl
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://wap.fnjitp.asia/blog/5261314.sHtMl
+
+原标题：golang http 服务性能优化调参
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://wap.fnjitp.asia/blog/5594625.sHtMl
+
+原标题：golang 系统设计 debug 远程调试 go 程序实操
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://wap.fnjitp.asia/blog/0715041.sHtMl
+
+原标题：多套环境灵活切换配置方案
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://wap.fnjitp.asia/blog/7373682.sHtMl
+
+原标题：golang 系统设计热点数据缓存处理
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://wap.fnjitp.asia/blog/1802807.sHtMl
+
+原标题：golang 告警推送钉钉机器人实现
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：http://wap.fnjitp.asia/blog/8482504.sHtMl
+
+原标题：包管理器依赖缓存清理
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://wap.fnjitp.asia/blog/1937076.sHtMl
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://wap.fnjitp.asia/blog/5261393.sHtMl
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：http://wap.fnjitp.asia/blog/3050404.sHtMl
+
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://wap.fnjitp.asia/blog/1534037.sHtMl
+
+原标题：golang 系统设计架构图绘图工具选型对比
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://wap.fnjitp.asia/blog/2605849.sHtMl
+
+原标题：golang 优雅处理系统信号 SIGINT
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://wap.fnjitp.asia/blog/4277360.sHtMl
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://wap.fnjitp.asia/blog/8494726.sHtMl
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://wap.fnjitp.asia/blog/5279104.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://wap.fnjitp.asia/blog/4253515.sHtMl
+
+原标题：golang 参数校验业务接口处理
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.fnjitp.asia/blog/3261515.sHtMl
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://wap.fnjitp.asia/blog/4117060.sHtMl
+
+原标题：Debug：网关超时时间小于后端接口超时设置
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://wap.fnjitp.asia/blog/9605948.sHtMl
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://wap.fnjitp.asia/blog/8502407.sHtMl
+
+原标题：SDK 版本兼容线上崩溃修复
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://wap.fnjitp.asia/blog/5250581.sHtMl
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://wap.fnjitp.asia/blog/0828150.sHtMl
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://wap.fnjitp.asia/blog/5262472.sHtMl
+
+原标题：golang redis 位图用户签到统计
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：http://wap.fnjitp.asia/blog/5324038.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://wap.fnjitp.asia/blog/5979393.sHtMl
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://wap.fnjitp.asia/blog/0728030.sHtMl
+
+原标题：golang 日志与链路 ID 关联打印
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://wap.fnjitp.asia/blog/0713911.sHtMl
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://wap.fnjitp.asia/blog/4183696.sHtMl
+
+原标题：跨平台 uniapp 多端开发实操
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://wap.fnjitp.asia/blog/3149148.sHtMl
+
+原标题：vue3 组合式 API 业务开发实战
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.fnjitp.asia/blog/3940581.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://wap.fnjitp.asia/blog/5967038.sHtMl
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：http://wap.fnjitp.asia/blog/3745848.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://wap.fnjitp.asia/blog/9624994.sHtMl
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://wap.fnjitp.asia/blog/8594746.sHtMl
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://wap.fnjitp.asia/blog/0373735.sHtMl
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://wap.fnjitp.asia/blog/8594391.sHtMl
+
+原标题：安全复盘：业务登录暴力破解防护完整方案
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://wap.fnjitp.asia/blog/9516947.sHtMl
+
+原标题：数据库死锁成因规避方案
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://wap.fnjitp.asia/blog/8593625.sHtMl
+
+原标题：从零学习简单分页逻辑实现思路
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://wap.fnjitp.asia/blog/3049392.sHtMl
+
+原标题：golang kafka 批量发送消费优化
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.fnjitp.asia/blog/1827079.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.fnjitp.asia/blog/6483514.sHtMl
+
+原标题：磁盘占满服务不可用清理方案
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.fnjitp.asia/blog/9635848.sHtMl
+
+原标题：golang 系统设计 grpc http2 多路复用讲解
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://wap.fnjitp.asia/blog/3040280.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://wap.fnjitp.asia/blog/6373828.sHtMl
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://wap.fnjitp.asia/blog/7593837.sHtMl
+
+原标题：golang kafka 消息顺序性保证方案
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://wap.fnjitp.asia/blog/5261416.sHtMl
+
+原标题：开发复盘：长轮询接口实现服务端消息推送
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://wap.fnjitp.asia/blog/2938141.sHtMl
+
+原标题：golang 系统设计 cpu 瓶颈定位优化方案
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://wap.fnjitp.asia/blog/4150304.sHtMl
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://wap.fnjitp.asia/blog/0716849.sHtMl
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://wap.fnjitp.asia/blog/2637251.sHtMl
+
+原标题：实战项目：WSL开发环境完整配置实操
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://wap.fnjitp.asia/blog/3935848.sHtMl
+
+原标题：golang 系统设计限流服务架构讲解
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://wap.fnjitp.asia/blog/0614048.sHtMl
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://wap.fnjitp.asia/blog/8591801.sHtMl
+
+原标题：项目实践：本地模拟缓存失效风暴验证防护
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.fnjitp.asia/blog/2046039.sHtMl
+
+原标题：版本升级服务启动失败处理
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.fnjitp.asia/blog/6079695.sHtMl
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://wap.fnjitp.asia/blog/7079593.sHtMl
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://wap.fnjitp.asia/blog/1857282.sHtMl
+
+原标题：golang 消息死信处理业务逻辑
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://wap.fnjitp.asia/blog/9605793.sHtMl
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://wap.fnjitp.asia/blog/4889199.sHtMl
+
+原标题：golang 系统设计日志系统架构思路
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.fnjitp.asia/blog/8505060.sHtMl
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://wap.fnjitp.asia/blog/8713817.sHtMl
+
+原标题：线上故障：热点Key打满RedisCPU节点过载
+简介：消息队列消费堆积扩容处理，消息大量堆积时，扩容消费实例，优化消费逻辑，加快消息处理速度。
+ | 原文链接：http://wap.fnjitp.asia/blog/7202795.sHtMl
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang redis pipeline 批量操作，使用 Redis Pipeline 批量执行多条命令，减少网络往返，提升批量操作性能。
+ | 原文链接：http://wap.fnjitp.asia/blog/9616159.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://wap.fnjitp.asia/blog/6391512.sHtMl
+
+原标题：golang 系统设计日志架构采集存储检索完整链路
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://wap.fnjitp.asia/blog/9828061.sHtMl
+
+原标题：热更新开发环境配置教程
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://wap.fnjitp.asia/blog/3261172.sHtMl
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://wap.fnjitp.asia/blog/4267393.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：http://wap.fnjitp.asia/blog/9605626.sHtMl
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://wap.fnjitp.asia/blog/1827948.sHtMl
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://wap.fnjitp.asia/blog/2828048.sHtMl
+
+原标题：nestjs 权限守卫鉴权实现方案
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://wap.fnjitp.asia/blog/5262694.sHtMl
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://wap.fnjitp.asia/blog/1828253.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://wap.fnjitp.asia/blog/6304037.sHtMl
+
+原标题：入门实践：本地简单代理服务搭建
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://wap.fnjitp.asia/blog/7472748.sHtMl
+
+原标题：调优方案：消息批量消费提升MQ处理吞吐量
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://wap.fnjitp.asia/blog/1825149.sHtMl
+
+原标题：DevOps：制品仓库管理二进制产物版本
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.fnjitp.asia/blog/1846959.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://wap.fnjitp.asia/blog/6373415.sHtMl
+
+原标题：golang grafana 面板变量模板制作
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://wap.fnjitp.asia/blog/7591682.sHtMl
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：http://wap.fnjitp.asia/blog/3746149.sHtMl
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://wap.fnjitp.asia/blog/8594915.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://wap.fnjitp.asia/blog/1817859.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://wap.fnjitp.asia/blog/4050293.sHtMl
+
+原标题：浏览器缓存强制刷新方案
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://wap.fnjitp.asia/blog/9616807.sHtMl
+
+原标题：golang mysql 批量导入数据实操
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://wap.fnjitp.asia/blog/3038048.sHtMl
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://wap.fnjitp.asia/blog/0746250.sHtMl
+
+原标题：golang 系统设计 mq 消息丢失完整防护
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://wap.fnjitp.asia/blog/2949293.sHtMl
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://wap.fnjitp.asia/blog/9605850.sHtMl
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://wap.fnjitp.asia/blog/5261682.sHtMl
+
+原标题：Issue：日志输出包含敏感信息造成泄露风险
+简介：golang http cookie jar 会话处理，客户端 cookie jar 自动管理 cookie，处理登录态会话。
+ | 原文链接：http://wap.fnjitp.asia/blog/0475848.sHtMl
+
+原标题：golang 空接口 interface 使用技巧
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://wap.fnjitp.asia/blog/0738361.sHtMl
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://wap.fnjitp.asia/blog/1746915.sHtMl
+
+原标题：架构复盘：消息死信处理架构避免消息丢失
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://wap.fnjitp.asia/blog/4817748.sHtMl
+
+原标题：定时任务重复执行分布式锁
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://wap.fnjitp.asia/blog/6079472.sHtMl
+
+原标题：golang 系统设计集成测试环境准备清理实操
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://wap.fnjitp.asia/blog/0603847.sHtMl
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.fnjitp.asia/blog/3045260.sHtMl
+
+原标题：golang 雪花 id 重复问题排查
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://wap.fnjitp.asia/blog/4179474.sHtMl
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://wap.fnjitp.asia/blog/5268372.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://wap.fnjitp.asia/blog/4868350.sHtMl
+
+原标题：代码格式化工具团队统一风格
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://wap.fnjitp.asia/blog/4756464.sHtMl
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://wap.fnjitp.asia/blog/6505627.sHtMl
+
+原标题：调优方案：消息队列消费速度优化处理堆积
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://wap.fnjitp.asia/blog/5269365.sHtMl
+
+原标题：AI实践：大模型生成代码后审查与重构实践
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://wap.fnjitp.asia/blog/2050365.sHtMl
+
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：http://wap.fnjitp.asia/blog/3068260.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://wap.fnjitp.asia/blog/5378464.sHtMl
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://wap.fnjitp.asia/blog/9718960.sHtMl
+
+原标题：gRPC 服务端客户端入门示例
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：http://wap.fnjitp.asia/blog/9616696.sHtMl
+
+原标题：方案对比：缓存更新策略Cache‑Aside读写模式
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://wap.fnjitp.asia/blog/8546726.sHtMl
+
+原标题：优化实践：LRU本地缓存优化热点访问性能
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://wap.fnjitp.asia/blog/0724919.sHtMl
+
+原标题：golang 系统设计开源项目贡献指南 contributing
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://wap.fnjitp.asia/blog/5595047.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://wap.fnjitp.asia/blog/1813804.sHtMl
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://wap.fnjitp.asia/blog/5968960.sHtMl
+
+原标题：golang 系统设计故障预案编写模板参考示例
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://wap.fnjitp.asia/blog/8595926.sHtMl
+
+四、架构设计｜Architecture
+原标题：死信队列处理消息阻塞业务
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://wap.fnjitp.asia/blog/7483814.sHtMl
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://wap.fnjitp.asia/blog/1034816.sHtMl
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://wap.fnjitp.asia/blog/9616819.sHtMl
+
+原标题：golang redis 过期 key 监听业务
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://wap.fnjitp.asia/blog/6080681.sHtMl
+
+原标题：WebSocket 断线重连稳定优化
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://wap.fnjitp.asia/blog/5381685.sHtMl
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://wap.fnjitp.asia/blog/6373515.sHtMl
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://wap.fnjitp.asia/blog/8716637.sHtMl
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://wap.fnjitp.asia/blog/0717471.sHtMl
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://wap.fnjitp.asia/blog/6384526.sHtMl
+
+原标题：golang 系统设计消息 key 选择保证顺序性方案
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://wap.fnjitp.asia/blog/9613704.sHtMl
+
+原标题：golang 系统设计覆盖索引减少回表查询实现
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://wap.fnjitp.asia/blog/0827982.sHtMl
+
+原标题：Nginx 丢失请求头配置修正
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://wap.fnjitp.asia/blog/0827808.sHtMl
+
+原标题：坑点：软链接权限问题容器读取文件失败
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://wap.fnjitp.asia/blog/2939361.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.fnjitp.asia/blog/0375749.sHtMl
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://wap.fnjitp.asia/blog/7484926.sHtMl
+
+原标题：Nginx 丢失请求头配置修正
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://wap.fnjitp.asia/blog/4149171.sHtMl
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://wap.fnjitp.asia/blog/8617816.sHtMl
+
+原标题：golang minio 分片上传断点续传
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://wap.fnjitp.asia/blog/0638937.sHtMl
+
+?
