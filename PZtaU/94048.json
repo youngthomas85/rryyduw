@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：坑点：环境配置写死代码，上线忘记修改
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://book.ireelm.asia/blog/2513805.sHtMl
+
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://book.ireelm.asia/blog/1281716.sHtMl
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://book.ireelm.asia/blog/2629661.sHtMl
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://book.ireelm.asia/blog/2713898.sHtMl
+
+原标题：文件描述符优化进程卡死修复
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://book.ireelm.asia/blog/3839462.sHtMl
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://book.ireelm.asia/blog/6917169.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://book.ireelm.asia/blog/3609168.sHtMl
+
+原标题：golang 系统信号信号量处理
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://book.ireelm.asia/blog/0484780.sHtMl
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：http://book.ireelm.asia/blog/6128279.sHtMl
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://book.ireelm.asia/blog/2637350.sHtMl
+
+原标题：优化实践：批量操作性能优化，减少数据库IO
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://book.ireelm.asia/blog/2036946.sHtMl
+
+原标题：nodejs 全局异常捕获进程防护
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.ireelm.asia/blog/2579673.sHtMl
+
+原标题：golang 系统设计内存瓶颈定位优化思路
+简介：golang 结构体零值可用性原则，go 结构体尽量做到零值可用，不用初始化直接使用提升易用性。
+ | 原文链接：http://book.ireelm.asia/blog/6133603.sHtMl
+
+原标题：项目实践：定时任务防重复执行落地实践
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://book.ireelm.asia/blog/1615925.sHtMl
+
+原标题：实践：大文件分片上传后端完整实现思路
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://book.ireelm.asia/blog/0493494.sHtMl
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://book.ireelm.asia/blog/4816171.sHtMl
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://book.ireelm.asia/blog/8806128.sHtMl
+
+原标题：golang redis zset 排行榜业务实现
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://book.ireelm.asia/blog/4847271.sHtMl
+
+原标题：性能笔记：线程池参数调优任务队列策略
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：http://book.ireelm.asia/blog/0570280.sHtMl
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://book.ireelm.asia/blog/4915123.sHtMl
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://book.ireelm.asia/blog/6373573.sHtMl
+
+原标题：内存溢出问题现象识别排查
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://book.ireelm.asia/blog/1689302.sHtMl
+
+原标题：单元测试用例编写入门实操
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://book.ireelm.asia/blog/2795626.sHtMl
+
+原标题：golang 系统设计用户签到统计方案
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.ireelm.asia/blog/3147380.sHtMl
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://book.ireelm.asia/blog/3818047.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://book.ireelm.asia/blog/3735856.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.ireelm.asia/blog/4149157.sHtMl
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://book.ireelm.asia/blog/0591383.sHtMl
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.ireelm.asia/blog/7172627.sHtMl
+
+原标题：Practice：实现定时任务动态启停管理接口
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://book.ireelm.asia/blog/2728239.sHtMl
+
+原标题：golang 系统设计布隆过滤器拦截不存在 key
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://book.ireelm.asia/blog/5949946.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://book.ireelm.asia/blog/6030793.sHtMl
+
+原标题：golang mysql 分表自增 id 方案
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.ireelm.asia/blog/6179363.sHtMl
+
+原标题：性能复盘：接口响应从800ms优化到50ms全过程
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://book.ireelm.asia/blog/0414846.sHtMl
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://book.ireelm.asia/blog/1697835.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://book.ireelm.asia/blog/7039179.sHtMl
+
+原标题：golang 系统设计请求签名校验完整方案
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：http://book.ireelm.asia/blog/3836946.sHtMl
+
+原标题：golang 数据库批量更新性能优化
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://book.ireelm.asia/blog/5959314.sHtMl
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.ireelm.asia/blog/2648169.sHtMl
+
+原标题：nodejs 集群模式多核利用实现
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://book.ireelm.asia/blog/1484795.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 开发环境快速搭建指南
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://book.ireelm.asia/blog/1625856.sHtMl
+
+原标题：golang ip 限流黑名单实现方案
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://book.ireelm.asia/blog/5069584.sHtMl
+
+原标题：数据库索引重建提升查询速度
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.ireelm.asia/blog/2036454.sHtMl
+
+原标题：golang 系统设计限流熔断降级组合使用
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://book.ireelm.asia/blog/9563714.sHtMl
+
+原标题：百万数据 Excel 导出内存优化
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://book.ireelm.asia/blog/8680694.sHtMl
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://book.ireelm.asia/blog/0666370.sHtMl
+
+原标题：golang gorm ORM 数据库操作
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://book.ireelm.asia/blog/4937070.sHtMl
+
+原标题：golang 系统设计开源项目 release 发布流程
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://book.ireelm.asia/blog/2695916.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://book.ireelm.asia/blog/5869671.sHtMl
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://book.ireelm.asia/blog/4806915.sHtMl
+
+原标题：golang 系统设计 mq 消息顺序性保证思路
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://book.ireelm.asia/blog/6168454.sHtMl
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://book.ireelm.asia/blog/2614937.sHtMl
+
+原标题：DNS TTL 配置域名切换生效
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：http://book.ireelm.asia/blog/6477462.sHtMl
+
+原标题：golang mysql 避免 select * 查询
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.ireelm.asia/blog/3825724.sHtMl
+
+原标题：快速入门：API接口调试完整实操步骤
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://book.ireelm.asia/blog/6258068.sHtMl
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://book.ireelm.asia/blog/2695179.sHtMl
+
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://book.ireelm.asia/blog/5259705.sHtMl
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://book.ireelm.asia/blog/1585795.sHtMl
+
+原标题：nodejs http 服务性能调优实战
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.ireelm.asia/blog/8152681.sHtMl
+
+原标题：实践：多配置文件合并加载组件实现
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://book.ireelm.asia/blog/6468563.sHtMl
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.ireelm.asia/blog/1513739.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://book.ireelm.asia/blog/9694819.sHtMl
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.ireelm.asia/blog/0373573.sHtMl
+
+原标题：golang k8s 基础概念 pod deployment
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://book.ireelm.asia/blog/2028278.sHtMl
+
+原标题：性能笔记：线程池参数调优任务队列策略
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://book.ireelm.asia/blog/5140147.sHtMl
+
+原标题：缓存穿透防护保护数据库
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://book.ireelm.asia/blog/9607235.sHtMl
+
+原标题：vite 插件开发自定义构建逻辑
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://book.ireelm.asia/blog/6030580.sHtMl
+
+原标题：Architecture：限流计数器架构时间窗口选型对比
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://book.ireelm.asia/blog/7169270.sHtMl
+
+原标题：日志驱动异常日志不输出修复
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://book.ireelm.asia/blog/9358679.sHtMl
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://book.ireelm.asia/blog/9352613.sHtMl
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://book.ireelm.asia/blog/2847290.sHtMl
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://book.ireelm.asia/blog/5259481.sHtMl
+
+原标题：实战项目：编写Dockerfile多阶段构建减小镜像体积
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://book.ireelm.asia/blog/0703030.sHtMl
+
+原标题：快速上手阅读开源项目源码的入门思路
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://book.ireelm.asia/blog/3792805.sHtMl
+
+原标题：排错：前端缓存304异常更新不及时
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://book.ireelm.asia/blog/6916261.sHtMl
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：http://book.ireelm.asia/blog/9403733.sHtMl
+
+原标题：golang redis 发布订阅简单示例
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：http://book.ireelm.asia/blog/9352514.sHtMl
+
+原标题：新手教程：本地环境变量配置全流程
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://book.ireelm.asia/blog/4260403.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://book.ireelm.asia/blog/6241569.sHtMl
+
+原标题：开源实践：参与开源项目从Issue到PR完整流程
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://book.ireelm.asia/blog/0691525.sHtMl
+
+三、实战开发｜Practice
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://book.ireelm.asia/blog/0892027.sHtMl
+
+原标题：RPC 报文大小上限调优大请求
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://book.ireelm.asia/blog/4171705.sHtMl
+
+原标题：golang mysql 时间类型选型避坑
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://book.ireelm.asia/blog/3739178.sHtMl
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://book.ireelm.asia/blog/3794051.sHtMl
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://book.ireelm.asia/blog/3844030.sHtMl
+
+原标题：架构复盘：慢查询治理架构层面优化手段
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://book.ireelm.asia/blog/6479569.sHtMl
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://book.ireelm.asia/blog/2705148.sHtMl
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://book.ireelm.asia/blog/5069385.sHtMl
+
+原标题：golang 系统设计容量评估简单方法论
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://book.ireelm.asia/blog/8239309.sHtMl
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://book.ireelm.asia/blog/6959312.sHtMl
+
+原标题：Performance：避免全表扫描索引失效场景汇总
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.ireelm.asia/blog/4358607.sHtMl
+
+原标题：特殊输入字符过滤解析防护
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://book.ireelm.asia/blog/7248070.sHtMl
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://book.ireelm.asia/blog/5048576.sHtMl
+
+原标题：golang 系统设计故障止损降级回滚执行原则
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://book.ireelm.asia/blog/3727171.sHtMl
+
+原标题：百万数据 Excel 导出内存优化
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://book.ireelm.asia/blog/3841570.sHtMl
+
+原标题：CI/CD 流水线自动构建部署落地
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://book.ireelm.asia/blog/3747059.sHtMl
+
+原标题：Performance：缓存策略优化，降低数据库压力
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://book.ireelm.asia/blog/7078468.sHtMl
+
+原标题：踩坑：重试逻辑未做幂等，重复生成业务数据
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://book.ireelm.asia/blog/8582933.sHtMl
+
+原标题：golang websocket 服务端开发
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://book.ireelm.asia/blog/5089785.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：http://book.ireelm.asia/blog/5358270.sHtMl
+
+原标题：CORS 跨域问题多种解决方案
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://book.ireelm.asia/blog/3968160.sHtMl
+
+原标题：golang 系统设计布隆过滤器拦截不存在 key
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://book.ireelm.asia/blog/4917159.sHtMl
+
+原标题：从零搭建简单定时任务demo
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://book.ireelm.asia/blog/6057463.sHtMl
+
+原标题：golang es 分词器选型业务适配
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://book.ireelm.asia/blog/4180591.sHtMl
+
+原标题：golang 分布式 ID 雪花算法实现
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：http://book.ireelm.asia/blog/7282705.sHtMl
+
+原标题：git stash 代码暂存切换分支
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://book.ireelm.asia/blog/0525846.sHtMl
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://book.ireelm.asia/blog/1703627.sHtMl
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://book.ireelm.asia/blog/4825704.sHtMl
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://book.ireelm.asia/blog/8505848.sHtMl
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://book.ireelm.asia/blog/6283817.sHtMl
+
+原标题：golang 系统设计回调签名校验防伪造实现
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://book.ireelm.asia/blog/0726706.sHtMl
+
+原标题：记一次本地运行正常，线上环境报错诡异问题
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://book.ireelm.asia/blog/1920473.sHtMl
+
+原标题：golang 结构体深拷贝几种实现
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://book.ireelm.asia/blog/1824958.sHtMl
+
+原标题：golang 系统设计容量评估简单方法论
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://book.ireelm.asia/blog/3040183.sHtMl
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://book.ireelm.asia/blog/8596069.sHtMl
+
+原标题：golang redis set 集合去重业务
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://book.ireelm.asia/blog/9304825.sHtMl
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://book.ireelm.asia/blog/6284595.sHtMl
+
+原标题：golang 优雅停机服务关闭实现
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://book.ireelm.asia/blog/6370572.sHtMl
+
+原标题：golang 系统设计数据库版本迁移回滚方案
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://book.ireelm.asia/blog/3042406.sHtMl
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://book.ireelm.asia/blog/9625040.sHtMl
+
+四、架构设计｜Architecture
+原标题：Hands‑on：简易反向代理中间件实现
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://book.ireelm.asia/blog/6491292.sHtMl
+
+原标题：WebSocket 双向通信 demo 开发
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://book.ireelm.asia/blog/0717958.sHtMl
+
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://book.ireelm.asia/blog/8503803.sHtMl
+
+原标题：express 请求参数校验处理
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://book.ireelm.asia/blog/4858362.sHtMl
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://book.ireelm.asia/blog/0756163.sHtMl
+
+原标题：golang 系统设计接口幂等架构设计
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://book.ireelm.asia/blog/6373414.sHtMl
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://book.ireelm.asia/blog/0704515.sHtMl
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://book.ireelm.asia/blog/3373814.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://book.ireelm.asia/blog/3747364.sHtMl
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://book.ireelm.asia/blog/5273503.sHtMl
+
+原标题：golang 链路 traceId 透传中间件
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://book.ireelm.asia/blog/1851692.sHtMl
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://book.ireelm.asia/blog/2960591.sHtMl
+
+原标题：短信服务封装失败自动重试
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://book.ireelm.asia/blog/0728055.sHtMl
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://book.ireelm.asia/blog/7484626.sHtMl
+
+原标题：golang 系统设计缓存基准测试对比方案
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://book.ireelm.asia/blog/1728840.sHtMl
+
+原标题：效率笔记：GitWorkflow团队协作规范模板
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.ireelm.asia/blog/3747252.sHtMl
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://book.ireelm.asia/blog/9603817.sHtMl
+
+原标题：golang 日志 zap 结构化日志实践
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://book.ireelm.asia/blog/3158473.sHtMl
+
+?
