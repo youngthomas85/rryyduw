@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：文件句柄上限调整上传随机失败
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：3g.bau-jl.cn/Article/details/63839358.shtml
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：3g.bau-jl.cn/Article/details/52683625.shtml
+
+原标题：项目实践：定时任务防重复执行落地实践
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：3g.bau-jl.cn/Article/details/74059281.shtml
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：3g.bau-jl.cn/Article/details/18382036.shtml
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：3g.bau-jl.cn/Article/details/48685817.shtml
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：3g.bau-jl.cn/Article/details/85047369.shtml
+
+原标题：快速入门WebSocket，实现简易双向通信demo
+简介：golang multipart 表单文件上传解析，服务端解析 multipart 表单，获取上传文件与表单字段。
+ | 原文链接：3g.bau-jl.cn/Article/details/31804031.shtml
+
+原标题：Hands‑on：手写简单RPC框架基础通信版本
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：3g.bau-jl.cn/Article/details/86048494.shtml
+
+原标题：golang jwt 过期刷新 token 实现
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：3g.bau-jl.cn/Article/details/63058584.shtml
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：3g.bau-jl.cn/Article/details/60039251.shtml
+
+原标题：踩坑记录：文件描述符不足，上传功能随机失败
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：3g.bau-jl.cn/Article/details/04258584.shtml
+
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：3g.bau-jl.cn/Article/details/52725149.shtml
+
+原标题：golang mysql 批量导入数据实操
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：3g.bau-jl.cn/Article/details/42681706.shtml
+
+原标题：用户敏感数据脱敏代码实现
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：3g.bau-jl.cn/Article/details/63736251.shtml
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：3g.bau-jl.cn/Article/details/85169585.shtml
+
+原标题：端口占用访问失败排查方案
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：3g.bau-jl.cn/Article/details/75846958.shtml
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：3g.bau-jl.cn/Article/details/85231403.shtml
+
+原标题：MySQL 慢查询索引优化实战
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：3g.bau-jl.cn/Article/details/07160681.shtml
+
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：3g.bau-jl.cn/Article/details/18381708.shtml
+
+原标题：golang 系统设计对象池复用减少内存分配
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：3g.bau-jl.cn/Article/details/74857361.shtml
+
+原标题：架构复盘：消息死信处理架构避免消息丢失
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：3g.bau-jl.cn/Article/details/59685817.shtml
+
+原标题：性能笔记：锁优化减少竞争提升并发吞吐
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：3g.bau-jl.cn/Article/details/52736069.shtml
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：3g.bau-jl.cn/Article/details/15352474.shtml
+
+原标题：Hands‑on：简易跨进程通信demo开发实践
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：3g.bau-jl.cn/Article/details/70349281.shtml
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：3g.bau-jl.cn/Article/details/82916959.shtml
+
+原标题：零基础理解会话、Cookie、Session基础
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：3g.bau-jl.cn/Article/details/52623928.shtml
+
+原标题：golang 系统设计 mq 故障降级业务策略
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：3g.bau-jl.cn/Article/details/18279283.shtml
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：3g.bau-jl.cn/Article/details/07169585.shtml
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：3g.bau-jl.cn/Article/details/18404026.shtml
+
+原标题：Issue：连接池参数不合理，大量连接被耗尽
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：3g.bau-jl.cn/Article/details/41273698.shtml
+
+原标题：死信队列处理消息阻塞业务
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：3g.bau-jl.cn/Article/details/85924048.shtml
+
+原标题：HelloEnv：多操作系统环境变量配置汇总
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：3g.bau-jl.cn/Article/details/26584707.shtml
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：3g.bau-jl.cn/Article/details/18380695.shtml
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：3g.bau-jl.cn/Article/details/07152515.shtml
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：3g.bau-jl.cn/Article/details/29381797.shtml
+
+原标题：golang docker volume 数据持久化
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：3g.bau-jl.cn/Article/details/41735950.shtml
+
+原标题：golang k8s 滚动更新回滚策略
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：3g.bau-jl.cn/Article/details/07240394.shtml
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：3g.bau-jl.cn/Article/details/09381405.shtml
+
+原标题：golang 错误处理最佳实践汇总
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：3g.bau-jl.cn/Article/details/29492948.shtml
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：3g.bau-jl.cn/Article/details/42724027.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：3g.bau-jl.cn/Article/details/29492807.shtml
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：3g.bau-jl.cn/Article/details/74806959.shtml
+
+原标题：Spring 事务传播机制配置生效
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：3g.bau-jl.cn/Article/details/41536259.shtml
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：3g.bau-jl.cn/Article/details/19241427.shtml
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：3g.bau-jl.cn/Article/details/48562526.shtml
+
+原标题：ORM 框架数据库增删改查实操
+简介：golang go 并发模式 errgroup 使用，errgroup 结合 context，协程组，任意协程出错整体取消任务。
+ | 原文链接：3g.bau-jl.cn/Article/details/41514030.shtml
+
+原标题：快速入门简单签名校验实现思路
+简介：golang hmac 签名生成校验示例，hmac 生成消息签名，做接口请求签名，校验数据不被篡改。
+ | 原文链接：3g.bau-jl.cn/Article/details/30492927.shtml
+
+原标题：golang 项目 go mod 依赖管理
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：3g.bau-jl.cn/Article/details/17270683.shtml
+
+原标题：数据库分表路由写入分片修正
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：3g.bau-jl.cn/Article/details/85081708.shtml
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：3g.bau-jl.cn/Article/details/63616141.shtml
+
+原标题：golang 系统设计故障止损降级回滚执行原则
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：3g.bau-jl.cn/Article/details/76017060.shtml
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：3g.bau-jl.cn/Article/details/30696918.shtml
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：3g.bau-jl.cn/Article/details/82029194.shtml
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：golang 结构体 json 序列化坑点，梳理 Go 结构体 JSON 序列化高频坑点，字段大小写、零值处理问题。
+ | 原文链接：3g.bau-jl.cn/Article/details/96125159.shtml
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：3g.bau-jl.cn/Article/details/30491696.shtml
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：3g.bau-jl.cn/Article/details/59682404.shtml
+
+原标题：实战项目：编写Dockerfile多阶段构建减小镜像体积
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：3g.bau-jl.cn/Article/details/07150496.shtml
+
+原标题：golang k8s 监控 prometheus 部署
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：3g.bau-jl.cn/Article/details/52624260.shtml
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：3g.bau-jl.cn/Article/details/84137172.shtml
+
+原标题：系统时间同步定时任务偏移
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：3g.bau-jl.cn/Article/details/18572625.shtml
+
+原标题：日志输出规范防止磁盘爆满
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：3g.bau-jl.cn/Article/details/60793637.shtml
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：3g.bau-jl.cn/Article/details/07138061.shtml
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：3g.bau-jl.cn/Article/details/30461771.shtml
+
+原标题：部署复盘：数据库主从备份恢复演练实践
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：3g.bau-jl.cn/Article/details/92016960.shtml
+
+原标题：效率笔记：Makefile项目构建脚本编写实践
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：3g.bau-jl.cn/Article/details/64839241.shtml
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：3g.bau-jl.cn/Article/details/52713027.shtml
+
+原标题：golang 分页查询封装通用工具
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：3g.bau-jl.cn/Article/details/93038060.shtml
+
+原标题：优化实践：批量操作性能优化，减少数据库IO
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：3g.bau-jl.cn/Article/details/29271715.shtml
+
+原标题：golang 重试退避机制代码实现
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：3g.bau-jl.cn/Article/details/75916871.shtml
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：3g.bau-jl.cn/Article/details/30490818.shtml
+
+原标题：前端组件库按需加载性能优化
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：3g.bau-jl.cn/Article/details/71938038.shtml
+
+原标题：Performance：避免全表扫描索引失效场景汇总
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：3g.bau-jl.cn/Article/details/74838141.shtml
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：3g.bau-jl.cn/Article/details/37572662.shtml
+
+原标题：HelloShell：入门常用shell脚本编写
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：3g.bau-jl.cn/Article/details/18272416.shtml
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：3g.bau-jl.cn/Article/details/30504040.shtml
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：3g.bau-jl.cn/Article/details/63838257.shtml
+
+原标题：OpenSource：大型仓库Git历史清理瘦身实操
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：3g.bau-jl.cn/Article/details/97161474.shtml
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：3g.bau-jl.cn/Article/details/30491707.shtml
+
+原标题：golang es 映射 mapping 设计避坑
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：3g.bau-jl.cn/Article/details/85946570.shtml
+
+原标题：开发记录：数据库悲观锁乐观锁业务场景实践
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：3g.bau-jl.cn/Article/details/05241495.shtml
+
+三、实战开发｜Practice
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：3g.bau-jl.cn/Article/details/26462514.shtml
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：3g.bau-jl.cn/Article/details/63028070.shtml
+
+原标题：性能复盘：数据库回滚日志过大性能影响优化
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：3g.bau-jl.cn/Article/details/63836958.shtml
+
+原标题：golang 定时任务 cron 使用指南
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：3g.bau-jl.cn/Article/details/71919281.shtml
+
+原标题：CI 流水线构建失败日志排查
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：3g.bau-jl.cn/Article/details/08273696.shtml
+
+原标题：golang es 批量 bulk 操作性能调优
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：3g.bau-jl.cn/Article/details/53725140.shtml
+
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：3g.bau-jl.cn/Article/details/71910037.shtml
+
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：3g.bau-jl.cn/Article/details/74836353.shtml
+
+原标题：golang 配置文件多环境加载
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：3g.bau-jl.cn/Article/details/81917053.shtml
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：3g.bau-jl.cn/Article/details/42717060.shtml
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：3g.bau-jl.cn/Article/details/18280794.shtml
+
+原标题：Performance：长连接管理优化减少连接重建开销
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：3g.bau-jl.cn/Article/details/42126748.shtml
+
+原标题：性能复盘：系统上下文切换过高性能下降调优
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：3g.bau-jl.cn/Article/details/75058494.shtml
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：3g.bau-jl.cn/Article/details/59355014.shtml
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：3g.bau-jl.cn/Article/details/41388148.shtml
+
+原标题：golang mysql 存储过程简单使用
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：3g.bau-jl.cn/Article/details/63735859.shtml
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：3g.bau-jl.cn/Article/details/74947360.shtml
+
+原标题：服务健康检查告警监控体系
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：3g.bau-jl.cn/Article/details/71495859.shtml
+
+原标题：缓存基础原理与简单代码实现
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：3g.bau-jl.cn/Article/details/07280716.shtml
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：3g.bau-jl.cn/Article/details/85869171.shtml
+
+原标题：golang mysql 连接泄漏检测方法
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：3g.bau-jl.cn/Article/details/30503638.shtml
+
+原标题：移动端适配 rem vw 方案对比
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：3g.bau-jl.cn/Article/details/85946364.shtml
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：3g.bau-jl.cn/Article/details/63836271.shtml
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：3g.bau-jl.cn/Article/details/93916930.shtml
+
+原标题：包管理器依赖冲突解决方案
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：3g.bau-jl.cn/Article/details/30795849.shtml
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：3g.bau-jl.cn/Article/details/82928163.shtml
+
+原标题：全平台系统环境变量配置
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：3g.bau-jl.cn/Article/details/18570304.shtml
+
+原标题：golang 系统设计接口不兼容平滑迁移方案
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：3g.bau-jl.cn/Article/details/74858060.shtml
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：3g.bau-jl.cn/Article/details/60917252.shtml
+
+原标题：golang 系统设计布隆过滤器原理与落地
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：3g.bau-jl.cn/Article/details/96058693.shtml
+
+原标题：Troubleshoot：磁盘打满导致服务全部不可用
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：3g.bau-jl.cn/Article/details/04140316.shtml
+
+原标题：webpack chunk 分包策略详解
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：3g.bau-jl.cn/Article/details/85068472.shtml
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：3g.bau-jl.cn/Article/details/42502919.shtml
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：3g.bau-jl.cn/Article/details/74807060.shtml
+
+原标题：无用对象回收抑制内存上涨
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：3g.bau-jl.cn/Article/details/71819281.shtml
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：3g.bau-jl.cn/Article/details/36457366.shtml
+
+原标题：设计思考：系统降级开关架构设计快速切流量
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：3g.bau-jl.cn/Article/details/96169283.shtml
+
+原标题：架构笔记：数据库读写分离架构数据不一致应对
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：3g.bau-jl.cn/Article/details/29404737.shtml
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：3g.bau-jl.cn/Article/details/52726959.shtml
+
+原标题：简易网关请求路由过滤模拟
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：3g.bau-jl.cn/Article/details/09795929.shtml
+
+四、架构设计｜Architecture
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：3g.bau-jl.cn/Article/details/29370793.shtml
+
+原标题：golang mysql 防止 sql 注入实践
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：3g.bau-jl.cn/Article/details/08252526.shtml
+
+原标题：golang gin 中间件执行顺序讲解
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：3g.bau-jl.cn/Article/details/99381707.shtml
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：3g.bau-jl.cn/Article/details/55947471.shtml
+
+原标题：快速上手单元测试，写出第一个测试用例
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：3g.bau-jl.cn/Article/details/30506929.shtml
+
+原标题：全局本地依赖隔离冲突规避
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：3g.bau-jl.cn/Article/details/18270696.shtml
+
+原标题：golang docker 部署 prometheus 整套
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：3g.bau-jl.cn/Article/details/08270393.shtml
+
+原标题：项目实践：Docker镜像安全扫描本地实操
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：3g.bau-jl.cn/Article/details/63736382.shtml
+
+原标题：golang 告警推送钉钉机器人实现
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：3g.bau-jl.cn/Article/details/31573737.shtml
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：3g.bau-jl.cn/Article/details/64069582.shtml
+
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：3g.bau-jl.cn/Article/details/18381704.shtml
+
+原标题：golang 系统设计混沌测试简单场景模拟实现
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：3g.bau-jl.cn/Article/details/04130394.shtml
+
+原标题：运维笔记：备份策略数据库定时备份脚本
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：3g.bau-jl.cn/Article/details/74917061.shtml
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：3g.bau-jl.cn/Article/details/62697071.shtml
+
+原标题：入门实践：实现简单文件读写功能
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：3g.bau-jl.cn/Article/details/52714848.shtml
+
+原标题：golang 系统设计大文件上传架构
+简介：golang errgroup 协程组错误处理，errgroup 捕获协程错误，context 取消剩余协程，简化并发任务。
+ | 原文链接：3g.bau-jl.cn/Article/details/85959272.shtml
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：3g.bau-jl.cn/Article/details/41537927.shtml
+
+原标题：部署实践：Nginx反向代理传递真实客户端IP
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：3g.bau-jl.cn/Article/details/19341372.shtml
+
+?
