@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计序列化性能选型对比
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.ebcdto.asia/blog/2869471.sHtMl
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：golang 钉钉企业微信告警消息推送，go 调用企业微信钉钉接口，推送告警通知、业务消息。
+ | 原文链接：http://wap.ebcdto.asia/blog/6379694.sHtMl
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://wap.ebcdto.asia/blog/5040926.sHtMl
+
+原标题：异步任务堆积消费能力优化
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://wap.ebcdto.asia/blog/0749282.sHtMl
+
+原标题：安全复盘：Redis未授权访问漏洞防护
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.ebcdto.asia/blog/3649461.sHtMl
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://wap.ebcdto.asia/blog/3047315.sHtMl
+
+原标题：跨平台换行符统一异常修复
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.ebcdto.asia/blog/8495038.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://wap.ebcdto.asia/blog/7591682.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://wap.ebcdto.asia/blog/5271604.sHtMl
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://wap.ebcdto.asia/blog/9603827.sHtMl
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：http://wap.ebcdto.asia/blog/3747250.sHtMl
+
+原标题：golang es 高亮搜索结果实现方案
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://wap.ebcdto.asia/blog/9425037.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://wap.ebcdto.asia/blog/2958464.sHtMl
+
+原标题：SSH 密钥配置 GitHub 免密登录
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://wap.ebcdto.asia/blog/3068482.sHtMl
+
+原标题：内网测试服务搭建团队调试
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://wap.ebcdto.asia/blog/9367698.sHtMl
+
+原标题：异步编程 Promise 执行流程解析
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://wap.ebcdto.asia/blog/5946814.sHtMl
+
+原标题：golang 系统设计缓存大 key 拆分优化实操
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.ebcdto.asia/blog/5968069.sHtMl
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://wap.ebcdto.asia/blog/2945259.sHtMl
+
+原标题：K8s 镜像拉取网络故障修复
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://wap.ebcdto.asia/blog/2939363.sHtMl
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://wap.ebcdto.asia/blog/1838471.sHtMl
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://wap.ebcdto.asia/blog/8505848.sHtMl
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.ebcdto.asia/blog/5273360.sHtMl
+
+原标题：Performance：避免内存拷贝，大对象处理优化
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.ebcdto.asia/blog/3757482.sHtMl
+
+原标题：golang 系统设计防重复提交实现
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://wap.ebcdto.asia/blog/4857360.sHtMl
+
+原标题：上传接口跨域配置特殊适配
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://wap.ebcdto.asia/blog/5868474.sHtMl
+
+原标题：golang docker compose 部署 minio
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://wap.ebcdto.asia/blog/2636250.sHtMl
+
+原标题：golang 系统设计时间字段选型 datetime timestamp
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://wap.ebcdto.asia/blog/7424536.sHtMl
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.ebcdto.asia/blog/0715051.sHtMl
+
+原标题：golang 系统设计开源项目贡献指南 contributing
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://wap.ebcdto.asia/blog/1838475.sHtMl
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://wap.ebcdto.asia/blog/8223636.sHtMl
+
+原标题：文件编码统一随机乱码修复
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：http://wap.ebcdto.asia/blog/1814037.sHtMl
+
+原标题：gRPC 服务端客户端入门示例
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://wap.ebcdto.asia/blog/9613515.sHtMl
+
+原标题：golang redis 缓存更新策略讲解
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://wap.ebcdto.asia/blog/8502405.sHtMl
+
+原标题：golang 错误处理最佳实践汇总
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://wap.ebcdto.asia/blog/6373808.sHtMl
+
+原标题：golang 系统设计大文件上传架构
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://wap.ebcdto.asia/blog/7201415.sHtMl
+
+原标题：golang mongodb 索引优化查询速度
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://wap.ebcdto.asia/blog/1524030.sHtMl
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://wap.ebcdto.asia/blog/3745845.sHtMl
+
+原标题：优化实践：接口返回字段裁剪减少报文大小
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://wap.ebcdto.asia/blog/3057473.sHtMl
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://wap.ebcdto.asia/blog/6394736.sHtMl
+
+原标题：实战：对象存储断点续传下载实践
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://wap.ebcdto.asia/blog/9594869.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.ebcdto.asia/blog/8481791.sHtMl
+
+原标题：排错：HTTPS证书过期导致接口调用失败
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://wap.ebcdto.asia/blog/2951373.sHtMl
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://wap.ebcdto.asia/blog/4167473.sHtMl
+
+原标题：ORM 隐式慢查询问题规避
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：http://wap.ebcdto.asia/blog/2647069.sHtMl
+
+原标题：设计思考：业务埋点架构日志埋点设计原则
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://wap.ebcdto.asia/blog/3768470.sHtMl
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://wap.ebcdto.asia/blog/9605958.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://wap.ebcdto.asia/blog/7483584.sHtMl
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://wap.ebcdto.asia/blog/6262575.sHtMl
+
+原标题：golang etcd watch 监听配置变更
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://wap.ebcdto.asia/blog/0424625.sHtMl
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：http://wap.ebcdto.asia/blog/1827069.sHtMl
+
+原标题：Security：RPC调用身份认证安全加固
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://wap.ebcdto.asia/blog/4284747.sHtMl
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：http://wap.ebcdto.asia/blog/0394746.sHtMl
+
+原标题：golang channel 通道并发处理
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.ebcdto.asia/blog/3048070.sHtMl
+
+原标题：nodejs 进程间通信 IPC 实操
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://wap.ebcdto.asia/blog/8593706.sHtMl
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.ebcdto.asia/blog/2935736.sHtMl
+
+原标题：手写简易 MQ 理解消息存储消费
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://wap.ebcdto.asia/blog/8481824.sHtMl
+
+原标题：Architecture：安全防护架构XSSCSRFSQL注入防御
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://wap.ebcdto.asia/blog/3049270.sHtMl
+
+原标题：包管理器依赖冲突解决方案
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://wap.ebcdto.asia/blog/7605706.sHtMl
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://wap.ebcdto.asia/blog/7368784.sHtMl
+
+原标题：Architecture：监控告警架构避免告警风暴设计
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://wap.ebcdto.asia/blog/5261483.sHtMl
+
+原标题：nodejs 集成测试业务流程编写
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://wap.ebcdto.asia/blog/3005958.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://wap.ebcdto.asia/blog/8202403.sHtMl
+
+原标题：代理 HTTPS 证书访问异常处理
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.ebcdto.asia/blog/2958473.sHtMl
+
+原标题：WSL 文件权限访问异常修复
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://wap.ebcdto.asia/blog/1827036.sHtMl
+
+原标题：golang 系统设计灰度发布实现思路
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://wap.ebcdto.asia/blog/8273738.sHtMl
+
+原标题：Security：RPC调用身份认证安全加固
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://wap.ebcdto.asia/blog/6304747.sHtMl
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://wap.ebcdto.asia/blog/1859358.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.ebcdto.asia/blog/9313807.sHtMl
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://wap.ebcdto.asia/blog/7080603.sHtMl
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://wap.ebcdto.asia/blog/1524036.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：http://wap.ebcdto.asia/blog/3045140.sHtMl
+
+原标题：时间同步修复令牌提前过期
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://wap.ebcdto.asia/blog/5851291.sHtMl
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://wap.ebcdto.asia/blog/3040170.sHtMl
+
+原标题：golang goroutine 协程基础实操
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://wap.ebcdto.asia/blog/4370584.sHtMl
+
+原标题：golang 互斥锁读写锁并发安全
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://wap.ebcdto.asia/blog/4169483.sHtMl
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://wap.ebcdto.asia/blog/1836149.sHtMl
+
+原标题：golang k8s ingress 路由域名转发
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://wap.ebcdto.asia/blog/9484614.sHtMl
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://wap.ebcdto.asia/blog/7484706.sHtMl
+
+原标题：golang 系统设计消息体序列化选型对比
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://wap.ebcdto.asia/blog/3051393.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://wap.ebcdto.asia/blog/2156251.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计日志与 traceId 关联打印实现
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://wap.ebcdto.asia/blog/8271695.sHtMl
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://wap.ebcdto.asia/blog/3051626.sHtMl
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://wap.ebcdto.asia/blog/9303806.sHtMl
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://wap.ebcdto.asia/blog/6384581.sHtMl
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://wap.ebcdto.asia/blog/9613514.sHtMl
+
+原标题：端口占用释放资源重启服务
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://wap.ebcdto.asia/blog/1831692.sHtMl
+
+原标题：快速入门：API接口调试完整实操步骤
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://wap.ebcdto.asia/blog/6371814.sHtMl
+
+原标题：golang redis 计数器防超卖示例
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://wap.ebcdto.asia/blog/4169461.sHtMl
+
+原标题：golang goroutine 协程基础实操
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://wap.ebcdto.asia/blog/7480515.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://wap.ebcdto.asia/blog/7481593.sHtMl
+
+原标题：golang 系统设计架构图绘制规范简单建议
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://wap.ebcdto.asia/blog/8425025.sHtMl
+
+原标题：golang 系统设计数据库扩容几种方式
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://wap.ebcdto.asia/blog/9605059.sHtMl
+
+原标题：golang redis zset 排行榜业务实现
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://wap.ebcdto.asia/blog/5270687.sHtMl
+
+原标题：golang 系统设计创建更新时间自动维护方案
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.ebcdto.asia/blog/8503816.sHtMl
+
+原标题：本地运行正常线上报错排查
+简介：Fork 开源项目同步上游代码，Fork 开源仓库之后，配置上游源，同步官方最新代码，保持代码版本对齐。
+ | 原文链接：http://wap.ebcdto.asia/blog/9503818.sHtMl
+
+原标题：开发生产环境资源路径统一
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://wap.ebcdto.asia/blog/5869482.sHtMl
+
+原标题：消息队列生产消费模型入门
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://wap.ebcdto.asia/blog/7616847.sHtMl
+
+原标题：nestjs 拦截器过滤器管道实战
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：http://wap.ebcdto.asia/blog/6303024.sHtMl
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://wap.ebcdto.asia/blog/5264523.sHtMl
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://wap.ebcdto.asia/blog/6280793.sHtMl
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://wap.ebcdto.asia/blog/0749250.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://wap.ebcdto.asia/blog/3050392.sHtMl
+
+原标题：golang 系统设计日志轮转切割防止磁盘占满
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://wap.ebcdto.asia/blog/8535027.sHtMl
+
+原标题：golang 系统设计全局异常处理器实现
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://wap.ebcdto.asia/blog/9601695.sHtMl
+
+原标题：golang excel 简单读写操作示例
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://wap.ebcdto.asia/blog/4161463.sHtMl
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://wap.ebcdto.asia/blog/2079270.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://wap.ebcdto.asia/blog/3047039.sHtMl
+
+原标题：golang docker 镜像体积优化技巧
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://wap.ebcdto.asia/blog/8491812.sHtMl
+
+原标题：nodejs 定时任务生产环境避坑
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://wap.ebcdto.asia/blog/1827958.sHtMl
+
+原标题：前端国际化多语言方案落地
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://wap.ebcdto.asia/blog/3634140.sHtMl
+
+原标题：限流窗口绕过漏洞修复方案
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.ebcdto.asia/blog/2502029.sHtMl
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://wap.ebcdto.asia/blog/7191703.sHtMl
+
+原标题：golang redis 布隆过滤器安装使用
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://wap.ebcdto.asia/blog/6979584.sHtMl
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://wap.ebcdto.asia/blog/1826846.sHtMl
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://wap.ebcdto.asia/blog/6379291.sHtMl
+
+原标题：Debug：HTTPS握手失败TLS版本兼容问题
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://wap.ebcdto.asia/blog/5263706.sHtMl
+
+原标题：golang github actions 多平台构建
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://wap.ebcdto.asia/blog/0937070.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://wap.ebcdto.asia/blog/1524149.sHtMl
+
+原标题：实战：Redis过期回调实现业务事件通知实践
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://wap.ebcdto.asia/blog/1424636.sHtMl
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://wap.ebcdto.asia/blog/9605060.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://wap.ebcdto.asia/blog/1079693.sHtMl
+
+原标题：项目实践：定时任务防重复执行落地实践
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：http://wap.ebcdto.asia/blog/8423404.sHtMl
+
+原标题：数据库连接及时关闭连接泄漏
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://wap.ebcdto.asia/blog/1925037.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://wap.ebcdto.asia/blog/9505810.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://wap.ebcdto.asia/blog/6273738.sHtMl
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://wap.ebcdto.asia/blog/1806069.sHtMl
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://wap.ebcdto.asia/blog/3048144.sHtMl
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://wap.ebcdto.asia/blog/7616066.sHtMl
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.ebcdto.asia/blog/5979582.sHtMl
+
+原标题：项目目录结构规范化最佳实践
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://wap.ebcdto.asia/blog/1838141.sHtMl
+
+原标题：WebSocket 聊天室实时通讯开发
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://wap.ebcdto.asia/blog/4158030.sHtMl
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://wap.ebcdto.asia/blog/8515059.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://wap.ebcdto.asia/blog/7424926.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://wap.ebcdto.asia/blog/9608359.sHtMl
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://wap.ebcdto.asia/blog/5938249.sHtMl
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://wap.ebcdto.asia/blog/1950592.sHtMl
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://wap.ebcdto.asia/blog/9505848.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://wap.ebcdto.asia/blog/7406849.sHtMl
+
+?
